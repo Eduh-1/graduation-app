@@ -1,6 +1,6 @@
 import { Routes, Route,useParams, Navigate } from "react-router-dom";
 import { users } from "./data/users";
-import SpinWheel from "./components/Wheel";
+import SpinWheel from "./components/wheel";
 import Family from "./pages/Family";
 
 
