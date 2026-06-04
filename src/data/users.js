@@ -43,8 +43,8 @@ export const users = {
     ]
   },
 
-   racheal: {
-    name: "Racheal",
+   rachel: {
+    name: "Rachel",
     role: "friend",
     result: "💎 The Precious Friend",
     message: " What can I even say from the moment I met you I did not know we will eventually be friends.Thank you being apart of my life.Youre truly special ❤️.",
