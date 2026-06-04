@@ -47,7 +47,6 @@ function Friend() {
         style={{ padding: "30px", maxWidth: "700px" }}
         >
         <h1>🎡 Welcome {user.name}</h1>
-         <p>Spin the wheel to discover your friendship result</p>
          <SpinWheel user={user} />
       </div>
     </div>
