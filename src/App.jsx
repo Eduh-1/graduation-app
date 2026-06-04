@@ -7,8 +7,12 @@ import Family from "./pages/Family";
 function Home() {
   return (
     <div className="center">
-      <h1>🎓 Graduation App</h1>
+       <div className="glass-card" style={{ padding: "40px" }}>
+     <h1 className="main-title">
+         🎓 Graduation Celebration
+      </h1>
       <p>Welcome to something special</p>
+      </div>
     </div>
   );
 }
@@ -38,8 +42,14 @@ function Friend() {
 
   return (
     <div className="center">
-      <h1>🎡 Welcome {user.name}</h1>
-      <SpinWheel user={user} />
+      <div
+        className="glass-card glow-friend"
+        style={{ padding: "30px", maxWidth: "700px" }}
+        >
+        <h1>🎡 Welcome {user.name}</h1>
+         <p>Spin the wheel to discover your friendship result</p>
+         <SpinWheel user={user} />
+      </div>
     </div>
   );
 }

@@ -60,9 +60,6 @@ export default function SpinWheel({ user }) {
   const handleSpin = () => {
     if (spun || localStorage.getItem(user.name)) return;
 
-    const spinSound = new Audio("/spin.mp3");
-    spinSound.play();
-
     const correctIndex = data.findIndex(
       (item) => item.option === user.result
     );

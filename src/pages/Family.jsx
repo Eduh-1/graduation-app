@@ -21,21 +21,23 @@ function Family() {
   return (
     <div className="center">
      <div
-  className={`
-    fade-in pop-in
-    ${user.role === "parent" ? "glow-parent" : ""}
-    ${user.role === "sibling" ? "glow-sibling" : ""}
-  `}
+  className={`fade-in pop-in ${
+    user.role === "parent"
+      ? "glow-parent"
+      : "glow-sibling"
+  }`}
   style={{
     maxWidth: "700px",
     padding: "30px",
     borderRadius: "20px",
+
     background: "rgba(255,255,255,0.08)",
     border: "1px solid rgba(255,255,255,0.2)",
     backdropFilter: "blur(14px)",
+
+    boxShadow: "0 15px 35px rgba(0,0,0,0.4)",
   }}
 >
-
         <h1>🎓 Graduation Tribute</h1>
 
         <h2>Dear {user.name} ❤️</h2>

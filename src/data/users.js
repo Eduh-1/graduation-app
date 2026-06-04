@@ -18,7 +18,7 @@ export const users = {
     name: "Faith",
     role: "friend",
     result: "🌻 The Sunshine Friend",
-    message: "Is there anything for me to say you are trully one of a kind person.You even made me look more open to talk to others and I am grateful that I came out of my shell because of you.Thank you for being apart of my memories❤️",
+    message: "Is there anything for me to say you are trully one of a kind person.You helped me be more open to talk to others and I am grateful that I came out of my shell because of you.Thank you for being apart of my memories❤️",
     wheelOptions: [
       "🌻 The Sunshine Friend",
       "🌈 The Rainbow",
@@ -28,12 +28,26 @@ export const users = {
       "💫 The Radiant One"
     ]
   },
+   nimoh: {
+    name: "Nimoh",
+    role: "friend",
+    result: "🌟 The Bright Star",
+    message: "Nimoh, you shine without even trying. Your confidence, your creativity, and your friendship have inspired me. Thank you for being you — unapologetically brilliant. This celebration is brighter because of you.",
+    wheelOptions: [
+      "🌟 The Bright Star",
+      "✨ The Sparkler",
+      "🔥 The Firecracker",
+      "🎨 The Creative Soul",
+      "💡 The Idea Generator",
+      "🌈 The Unique One"
+    ]
+  },
 
    racheal: {
     name: "Racheal",
     role: "friend",
     result: "💎 The Precious Friend",
-    message: " What can I even say from the moment of I met you I did not know we will eventually be friends.Thank you being apart of my life.Youre truly special ❤️.",
+    message: " What can I even say from the moment I met you I did not know we will eventually be friends.Thank you being apart of my life.Youre truly special ❤️.",
     wheelOptions: [
       "💎 The Precious Friend",
       "🕊️ The Dove",
@@ -90,7 +104,7 @@ export const users = {
     name: "Valentine",
     role: "friend",
     result: "📚 Academic Survivor",
-    message: "As a part time student I did understand your struggles of assignments, group work and do not forget the exams 😂, nah I am just joking but It has been a pleasure knowing you and able to call you a friend.Thank you ❤️",
+    message: "As a parttime student I did understand your struggles of assignments, group work and do not forget the exams 😂, nah I am just joking but It has been a pleasure knowing you and able to call you a friend.Thank you ❤️",
     wheelOptions: [
       "🏆 Best Friend",
       "⭐ VIP Friend",
@@ -142,7 +156,7 @@ This achievement is because of your strength and support.
   bro: {
     name: "Brother",
     role: "sibling",
-    message: "Thanks for always having my back.",
+    message: "Brother, you are not just my sibling — you are my best friend, my partner in crime, and my first real friend in this world. Thank you for the laughter, the fights we made up.Its trully an Honour to be called your brother",
 
     memoryTitle: "Growing Up Together ❤️",
 
